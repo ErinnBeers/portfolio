@@ -1,11 +1,15 @@
 body {
-  /* font-family: 'Libre Franklin', sans-serif; */
+  font-family: 'Barlow', sans-serif;
   color: #2a2a2a;
 }
 
 section {
-  text-align: center;
+  /* text-align: center; */
   padding: 80px 0;
+}
+
+.container {
+  max-width: 1920px;
 }
 
 .navbar {
@@ -14,6 +18,7 @@ section {
 
 .navbar ul li {
   display: inline;
+  padding: 20px;
 }
 
 .navbar ul li a {
@@ -52,12 +57,7 @@ section {
   display: inline-block;
 }
 
-.work-items li {
+.work-items li img {
   position: relative;
-  overflow: hidden;
-  height: 360px;
-  margin: 0!important;
-  width: 33%;
-  border: 10px solid white;
-  åposition: relative;
+  width: 300px;
 }
